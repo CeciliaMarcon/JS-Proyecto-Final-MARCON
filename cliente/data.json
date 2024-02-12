@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Short Mom Soho",
+        "descripcion": "Short confeccionado en denim.",
+        "precio": 10500,
+        "cantidad": 1,
+        "img": "./img/modelo1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Vestido Helena",
+        "descripcion": "Vestido escote pico confeccionado en seda.",
+        "precio": 15500,
+        "cantidad": 1,
+        "img": "./img/modelo2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Blusa Tina",
+        "descripcion": "Blusa cuello solapa confeccionada en lino rústico.",
+        "precio": 19500,
+        "cantidad": 1,
+        "img": "./img/modelo3.jpg"
+    }
+]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda_Online</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../cliente/css/estilos.css" />
+  </head>
+
+  <header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Tienda Online</a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/carousel1.jpg"
+            class="d-block w-100"
+            alt="carousel 1 imagen de presentacion 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/carousel2.jpg"
+            class="d-block w-100"
+            alt="carousel 2 imagen de presentacion 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/carousel3.jpg"
+            class="d-block w-100"
+            alt="carousel 3 abonando con transferencia"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/carousel4.jpg"
+            class="d-block w-100"
+            alt="carousel 4 new collection"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/carousel5.jpg"
+            class="d-block w-100"
+            alt="carousel 5 envíos a todo el país"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="cardProductosContenedor">
+      <div class="cardProductos" id="shopContent"></div>
+    </div>
+
+    <div class="cart-btn" id="cart-btn">🛒</div>
+    <span class="cart-contador" id="cart-contador">0</span>
+
+    <div class="modal-overlay" , id="modal-overlay"></div>
+    <div class="modal-container" , id="modal-container"></div>
+
+   
+    <script src="../cliente/js/index.js"></script>
+    <script src="../cliente/js/cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
